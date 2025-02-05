@@ -18,7 +18,7 @@ namespace Andmebass_TARpv23
             InitializeComponent();
             LoadProducts();
         }
-
+        //Метод загрузки товаров
         private void LoadProducts()
         {
             try
@@ -29,7 +29,7 @@ namespace Andmebass_TARpv23
                 dt = new DataTable();
                 adapter.Fill(dt);
                 conn.Close();
-
+                // Добавление изображений в DataGridView
                 dataGridView1.DataSource = dt;
 
                 DataGridViewImageColumn imgColumn = new DataGridViewImageColumn();
@@ -37,7 +37,7 @@ namespace Andmebass_TARpv23
                 imgColumn.HeaderText = "Pilt";
                 imgColumn.ImageLayout = DataGridViewImageCellLayout.Zoom;
                 dataGridView1.Columns.Add(imgColumn);
-
+                // Заполнение изображениями
                 foreach (DataGridViewRow row in dataGridView1.Rows)
                 {
                     var imageValue = row.Cells["Pilt"].Value;
@@ -59,6 +59,7 @@ namespace Andmebass_TARpv23
                     }
                 }
             }
+            // Обработка ошибок
             catch (Exception ex)
             {
                 MessageBox.Show("Viga kaupade laadimisel: " + ex.Message);
