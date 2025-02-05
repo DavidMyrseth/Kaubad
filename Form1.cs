@@ -14,7 +14,7 @@ namespace Andmebass_TARpv23
 {
     public partial class Form1 : Form
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\opilane\Source\Repos\Andmebass_TARpv23\Andmebaas1.mdf;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Source\Repos\Kaubad\Andmebaas1.mdf;Integrated Security=True");
         SqlCommand cmd;
         SqlDataAdapter adapter;
         OpenFileDialog open;
@@ -397,20 +397,6 @@ namespace Andmebass_TARpv23
             dataGridView1.DataSource = dt;
 
             conn.Close();
-        }
-
-        private void OtsidaButton_Click_1(object sender, EventArgs e)
-        {
-            string searchTerm = otsida_txt.Text.Trim();
-            if (!string.IsNullOrEmpty(searchTerm))
-            {
-
-                SearchProducts(searchTerm);
-            }
-            else
-            {
-                MessageBox.Show("Palun sisesta otsimiseks toote nimi!");
-            }
         }
     }
 } 

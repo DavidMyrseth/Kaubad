@@ -157,6 +157,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Andmebaas1.mdf</DependentUpon>
     </Content>
+    <Content Include="Bread.png" />
+    <Content Include="Cheese.jpg" />
+    <Content Include="FantaGrape.jpg" />
+    <Content Include="Fish.jpg" />
+    <Content Include="Jogurt.png" />
+    <Content Include="Meet.png" />
     <Content Include="Pildid\pilt.jpg" />
   </ItemGroup>
   <ItemGroup>

@@ -9,7 +9,7 @@ namespace Andmebass_TARpv23
 {
     public partial class KassaForm4 : Form
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\opilane\Source\Repos\Andmebass_TARpv23\Andmebaas1.mdf;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Source\Repos\Kaubad\Andmebaas1.mdf;Integrated Security=True");
         SqlDataAdapter adapter;
         DataTable dt;
 

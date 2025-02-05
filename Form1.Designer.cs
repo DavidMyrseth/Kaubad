@@ -108,16 +108,16 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(33, 318);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 201);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(843, 172);
+            this.dataGridView1.Size = new System.Drawing.Size(710, 172);
             this.dataGridView1.TabIndex = 6;
             this.dataGridView1.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_RowHeaderMouseClick);
             // 
             // lisa_btn
             // 
             this.lisa_btn.Font = new System.Drawing.Font("Microsoft JhengHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lisa_btn.Location = new System.Drawing.Point(35, 226);
+            this.lisa_btn.Location = new System.Drawing.Point(267, 22);
             this.lisa_btn.Name = "lisa_btn";
             this.lisa_btn.Size = new System.Drawing.Size(110, 40);
             this.lisa_btn.TabIndex = 7;
@@ -128,7 +128,7 @@
             // kustuta_btn
             // 
             this.kustuta_btn.Font = new System.Drawing.Font("Microsoft JhengHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kustuta_btn.Location = new System.Drawing.Point(151, 226);
+            this.kustuta_btn.Location = new System.Drawing.Point(383, 22);
             this.kustuta_btn.Name = "kustuta_btn";
             this.kustuta_btn.Size = new System.Drawing.Size(110, 40);
             this.kustuta_btn.TabIndex = 8;
@@ -139,7 +139,7 @@
             // uuenda_btn
             // 
             this.uuenda_btn.Font = new System.Drawing.Font("Microsoft JhengHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uuenda_btn.Location = new System.Drawing.Point(267, 226);
+            this.uuenda_btn.Location = new System.Drawing.Point(267, 68);
             this.uuenda_btn.Name = "uuenda_btn";
             this.uuenda_btn.Size = new System.Drawing.Size(110, 40);
             this.uuenda_btn.TabIndex = 9;
@@ -149,16 +149,16 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(515, 26);
+            this.pictureBox1.Location = new System.Drawing.Point(499, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(363, 204);
+            this.pictureBox1.Size = new System.Drawing.Size(223, 184);
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
             // Pildi_otsing_btn
             // 
             this.Pildi_otsing_btn.Font = new System.Drawing.Font("Microsoft JhengHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pildi_otsing_btn.Location = new System.Drawing.Point(383, 226);
+            this.Pildi_otsing_btn.Location = new System.Drawing.Point(383, 68);
             this.Pildi_otsing_btn.Name = "Pildi_otsing_btn";
             this.Pildi_otsing_btn.Size = new System.Drawing.Size(110, 40);
             this.Pildi_otsing_btn.TabIndex = 11;
@@ -187,7 +187,7 @@
             // ladu_btn
             // 
             this.ladu_btn.Font = new System.Drawing.Font("Microsoft JhengHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ladu_btn.Location = new System.Drawing.Point(35, 272);
+            this.ladu_btn.Location = new System.Drawing.Point(267, 118);
             this.ladu_btn.Name = "ladu_btn";
             this.ladu_btn.Size = new System.Drawing.Size(226, 40);
             this.ladu_btn.TabIndex = 15;
@@ -197,37 +197,30 @@
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft JhengHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(30, 183);
+            this.label4.Location = new System.Drawing.Point(0, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(142, 26);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "Toote otsing";
+            this.label4.Size = new System.Drawing.Size(100, 23);
+            this.label4.TabIndex = 2;
             // 
             // otsida_txt
             // 
-            this.otsida_txt.Location = new System.Drawing.Point(178, 189);
+            this.otsida_txt.Location = new System.Drawing.Point(161, 524);
             this.otsida_txt.Name = "otsida_txt";
-            this.otsida_txt.Size = new System.Drawing.Size(119, 20);
-            this.otsida_txt.TabIndex = 17;
+            this.otsida_txt.Size = new System.Drawing.Size(100, 20);
+            this.otsida_txt.TabIndex = 1;
             // 
             // OtsidaButton
             // 
-            this.OtsidaButton.Font = new System.Drawing.Font("Microsoft JhengHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OtsidaButton.Location = new System.Drawing.Point(267, 272);
+            this.OtsidaButton.Location = new System.Drawing.Point(51, 534);
             this.OtsidaButton.Name = "OtsidaButton";
-            this.OtsidaButton.Size = new System.Drawing.Size(110, 40);
-            this.OtsidaButton.TabIndex = 18;
-            this.OtsidaButton.Text = "Otsida";
-            this.OtsidaButton.UseVisualStyleBackColor = true;
-            this.OtsidaButton.Click += new System.EventHandler(this.OtsidaButton_Click_1);
+            this.OtsidaButton.Size = new System.Drawing.Size(75, 10);
+            this.OtsidaButton.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(951, 502);
+            this.ClientSize = new System.Drawing.Size(728, 385);
             this.Controls.Add(this.OtsidaButton);
             this.Controls.Add(this.otsida_txt);
             this.Controls.Add(this.label4);

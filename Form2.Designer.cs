@@ -55,7 +55,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft JhengHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(21, 83);
+            this.label2.Location = new System.Drawing.Point(21, 77);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 26);
             this.label2.TabIndex = 2;
@@ -95,7 +95,7 @@
             // lisa_btn
             // 
             this.lisa_btn.Font = new System.Drawing.Font("Microsoft JhengHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lisa_btn.Location = new System.Drawing.Point(26, 181);
+            this.lisa_btn.Location = new System.Drawing.Point(309, 18);
             this.lisa_btn.Name = "lisa_btn";
             this.lisa_btn.Size = new System.Drawing.Size(110, 40);
             this.lisa_btn.TabIndex = 11;
@@ -106,7 +106,7 @@
             // kustuta_btn
             // 
             this.kustuta_btn.Font = new System.Drawing.Font("Microsoft JhengHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kustuta_btn.Location = new System.Drawing.Point(290, 181);
+            this.kustuta_btn.Location = new System.Drawing.Point(309, 114);
             this.kustuta_btn.Name = "kustuta_btn";
             this.kustuta_btn.Size = new System.Drawing.Size(110, 40);
             this.kustuta_btn.TabIndex = 12;
@@ -118,15 +118,15 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 238);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 169);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(550, 147);
+            this.dataGridView1.Size = new System.Drawing.Size(407, 147);
             this.dataGridView1.TabIndex = 13;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft JhengHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(162, 181);
+            this.button1.Location = new System.Drawing.Point(309, 63);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(110, 40);
             this.button1.TabIndex = 15;
@@ -138,7 +138,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(587, 397);
+            this.ClientSize = new System.Drawing.Size(433, 330);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.kustuta_btn);

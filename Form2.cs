@@ -8,7 +8,7 @@ namespace Andmebass_TARpv23
     public partial class Form2 : Form
     {
         public event Action OnLaduAdded;  // Üritus vormi1 teavitamiseks
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\opilane\Source\Repos\Andmebass_TARpv23\Andmebaas1.mdf;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Source\Repos\Kaubad\Andmebaas1.mdf;Integrated Security=True");
         SqlCommand cmd;
         SqlDataAdapter adapter;
         DataTable laotable;

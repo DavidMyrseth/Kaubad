@@ -51,7 +51,7 @@
             // 
             this.parool.AutoSize = true;
             this.parool.Font = new System.Drawing.Font("Microsoft JhengHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parool.Location = new System.Drawing.Point(21, 91);
+            this.parool.Location = new System.Drawing.Point(21, 73);
             this.parool.Name = "parool";
             this.parool.Size = new System.Drawing.Size(79, 26);
             this.parool.TabIndex = 3;
@@ -61,7 +61,7 @@
             // 
             this.rolli.AutoSize = true;
             this.rolli.Font = new System.Drawing.Font("Microsoft JhengHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rolli.Location = new System.Drawing.Point(21, 145);
+            this.rolli.Location = new System.Drawing.Point(21, 116);
             this.rolli.Name = "rolli";
             this.rolli.Size = new System.Drawing.Size(58, 26);
             this.rolli.TabIndex = 4;
@@ -76,7 +76,7 @@
             // 
             // parool_txt
             // 
-            this.parool_txt.Location = new System.Drawing.Point(106, 98);
+            this.parool_txt.Location = new System.Drawing.Point(106, 80);
             this.parool_txt.Name = "parool_txt";
             this.parool_txt.Size = new System.Drawing.Size(119, 20);
             this.parool_txt.TabIndex = 6;
@@ -84,7 +84,7 @@
             // Rolli_comboBox
             // 
             this.Rolli_comboBox.FormattingEnabled = true;
-            this.Rolli_comboBox.Location = new System.Drawing.Point(106, 145);
+            this.Rolli_comboBox.Location = new System.Drawing.Point(104, 123);
             this.Rolli_comboBox.Name = "Rolli_comboBox";
             this.Rolli_comboBox.Size = new System.Drawing.Size(121, 21);
             this.Rolli_comboBox.TabIndex = 7;
@@ -92,9 +92,9 @@
             // RegisterButton
             // 
             this.RegisterButton.Font = new System.Drawing.Font("Microsoft JhengHei", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RegisterButton.Location = new System.Drawing.Point(26, 214);
+            this.RegisterButton.Location = new System.Drawing.Point(26, 161);
             this.RegisterButton.Name = "RegisterButton";
-            this.RegisterButton.Size = new System.Drawing.Size(149, 40);
+            this.RegisterButton.Size = new System.Drawing.Size(199, 40);
             this.RegisterButton.TabIndex = 12;
             this.RegisterButton.Text = "Registreerimine";
             this.RegisterButton.UseVisualStyleBackColor = true;
@@ -104,7 +104,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(340, 299);
+            this.ClientSize = new System.Drawing.Size(245, 212);
             this.Controls.Add(this.RegisterButton);
             this.Controls.Add(this.Rolli_comboBox);
             this.Controls.Add(this.parool_txt);
