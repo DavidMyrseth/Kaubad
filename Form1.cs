@@ -333,7 +333,7 @@ namespace Andmebass_TARpv23
                 MessageBox.Show($"Viga: {ex.Message}");
             }
         }
-
+        // Валидация полей ввода
         //Метод KeyPress обрабатывает каждый символ, который вводится в текстовое поле, до того, как этот символ будет добавлен в поле.
         // Проверки для полей Kogus_txt 
         private void Kogus_txt_KeyPress(object sender, KeyPressEventArgs e) 
