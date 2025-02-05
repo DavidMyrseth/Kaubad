@@ -33,6 +33,7 @@ namespace Andmebass_TARpv23
         private void NaitaLaod()
         {
             conn.Open();
+            // Отображение данных о складах NaitaLaod
             cmd = new SqlCommand("SELECT Id, LaoNimetus FROM Ladu", conn);
             adapter = new SqlDataAdapter(cmd);
             laotable = new DataTable();
@@ -48,6 +49,7 @@ namespace Andmebass_TARpv23
         {
             conn.Open();
             DataTable dt = new DataTable();
+            // Отображение данных о товарах NaitaAndmed
             cmd = new SqlCommand("SELECT * FROM Toode", conn);
             adapter = new SqlDataAdapter(cmd);
             adapter.Fill(dt);
@@ -55,6 +57,8 @@ namespace Andmebass_TARpv23
             conn.Close();
         }
 
+        // Добавление товара 
+        // Проверяет, заполнены ли поля. Определяет ID склада. Добавляет товар с названием, количеством, ценой и путем к изображению в базу.
         private void Lisa_btn_Click(object sender, EventArgs e)
         {
             if (Nimetus_txt.Text.Trim() != string.Empty && Kogus_txt.Text.Trim() != string.Empty && Hind_txt.Text.Trim() != string.Empty)
@@ -93,7 +97,8 @@ namespace Andmebass_TARpv23
                 MessageBox.Show("Sisesta andmeid");
             }
         }
-
+        // Удаление товара
+        // Получает ID товара из dataGridView1. Удаляет товар из базы. Вызывает метод Kustuta_fail(file), чтобы удалить изображение.
         private void Kustuta_btn_Click(object sender, EventArgs e)
         {
             try
@@ -121,7 +126,7 @@ namespace Andmebass_TARpv23
                 MessageBox.Show($"Viga kirje kustutamisel: {ex.Message}");
             }
         }
-
+        // Удаляет файл, если он существует
         private void Kustuta_fail(string file)
         {
             try
@@ -146,7 +151,7 @@ namespace Andmebass_TARpv23
             }
         }
 
-        //Исправь проблемы с картинками при запуске запроса на обновление
+        //Удаляет старый файл изображения, если он есть. Копирует новый файл в папку Pildid.
         private void Uuenda_btn_Click(object sender, EventArgs e)
         {
             try
