@@ -37,7 +37,7 @@ namespace Andmebass_TARpv23
                 imgColumn.HeaderText = "Pilt";
                 imgColumn.ImageLayout = DataGridViewImageCellLayout.Zoom;
                 dataGridView1.Columns.Add(imgColumn);
-                // Заполнение изображениями
+                //Заполнение изображениями. Этот цикл проходит по всем строкам DataGridView и загружает картинки.
                 foreach (DataGridViewRow row in dataGridView1.Rows)
                 {
                     var imageValue = row.Cells["Pilt"].Value;
