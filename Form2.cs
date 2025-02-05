@@ -127,14 +127,14 @@ namespace Andmebass_TARpv23
             }
         }
 
-
+        // Очистка полей
         private void Emaldamine()
         {
             LaoNimetus_txt.Text = "";
             Suurus_txt.Text = "";
             Kirjeldus_txt.Text = "";
         }
-
+        // Метод dataGridView1_RowHeaderMouseClick вызывается, когда пользователь выбирает строку в таблице.
         private void dataGridView1_RowHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             if (dataGridView1.SelectedRows.Count > 0) 
