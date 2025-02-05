@@ -24,15 +24,16 @@ namespace Andmebass_TARpv23
             // Устанавливаем первый элемент как выбранный
             Rolli_comboBox.SelectedIndex = 0;
         }
-
+        // Метод регистрации
         private void RegisterButton_Click_1(object sender, EventArgs e)
         {
             string nimi = Nimi_txt.Text;
             string parool = parool_txt.Text;
             string rolli = Rolli_comboBox.SelectedItem.ToString();
-
+            // Проверка на пустые поля
             if (!string.IsNullOrEmpty(nimi) && !string.IsNullOrEmpty(parool))
             {
+                // Запись данных в базу
                 try
                 {
                     conn.Open();
@@ -45,7 +46,7 @@ namespace Andmebass_TARpv23
 
                     MessageBox.Show("Edukalt");
 
-                    // Теперь переходим к соответствующей форме в зависимости от роли
+                    // Открытие новой формы в зависимости от роли
                     if (rolli == "müüja")
                     {
                         // Открываем форму Кассы для "müüja"
@@ -62,6 +63,7 @@ namespace Andmebass_TARpv23
                         kassaForm.Show();
                     }
                 }
+                // Обработка ошибок
                 catch (Exception ex)
                 {
                     MessageBox.Show("Viga: " + ex.Message);
